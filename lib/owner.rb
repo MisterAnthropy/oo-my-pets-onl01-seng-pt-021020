@@ -31,7 +31,7 @@ class Owner
   end
   
   def cats
-    Cat 
+    cat_1
   end
   
    
