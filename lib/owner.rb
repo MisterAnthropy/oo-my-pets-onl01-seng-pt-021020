@@ -31,7 +31,9 @@ class Owner
   end
   
   def cats
-    @pets[:cats] <<
+    @pets[:cats] << @owner
+  end
+  
    
     
     
