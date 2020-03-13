@@ -35,6 +35,7 @@ class Owner
       cat.owner == self
     end
   end
+end
   
   
  
