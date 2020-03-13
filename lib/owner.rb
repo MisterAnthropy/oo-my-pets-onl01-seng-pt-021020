@@ -11,7 +11,6 @@ class Owner
     @species = "human"
     #binding.pry
     @@all << self
-    @pets = {:dogs => [], :cats => [nil]}
   end
  
   def say_species
@@ -30,11 +29,8 @@ class Owner
     @@all.clear 
   end
   
-  def cats
-    cats = Cats 
+
     
-    
-  end
   
    
     
