@@ -30,8 +30,8 @@ class Owner
     @@all.clear 
   end
   
-  def cats
-    cats = cat_1
+  def cats(cats)
+    @cats = cat_1
   end
   
    
