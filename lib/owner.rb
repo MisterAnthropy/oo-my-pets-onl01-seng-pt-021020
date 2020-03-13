@@ -32,7 +32,7 @@ class Owner
   
   def cats 
     Cats.all.select.do |cats|
-      
+      cat
   
   
  
