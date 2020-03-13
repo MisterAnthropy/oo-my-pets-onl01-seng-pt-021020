@@ -31,7 +31,7 @@ class Owner
   end
   
   def cats(cats)
-    @cats = cat_1
+    @cats = cats
   end
   
    
