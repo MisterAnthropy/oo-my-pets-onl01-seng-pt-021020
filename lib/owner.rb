@@ -29,7 +29,8 @@ class Owner
     @@all.clear 
   end
   
-  def cats(cats)
+  def cats
+    @cats[]
    
     
     
