@@ -64,10 +64,18 @@ class Owner
      sell_pet(sell)
    end
  end
+ 
  def sell_pet(pet)
    pet.owner = nil
    pet.mood = "nervous"
  end
+ 
+ def list_pets
+   num_of_dogs = self.dogs.count
+   num_of_cats = self.cats.count
+   "I have #{num_of_dogs} dog(s), and #{num_of_cats} cat(s)."
+ end
+ 
     
 
   
