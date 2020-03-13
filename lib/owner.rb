@@ -1,7 +1,7 @@
 require 'pry'
 
 class Owner
-  attr_accessor :owner, :cats
+  attr_accessor :owner, :pets 
   attr_reader :species, :name 
   @@all = []
   
@@ -11,6 +11,7 @@ class Owner
     @species = "human"
     #binding.pry
     @@all << self
+    @pets = {:dogs => [], :cats => []}
   end
  
   def say_species
