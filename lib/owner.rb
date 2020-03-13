@@ -31,7 +31,7 @@ class Owner
   end
   
   def cats 
-    Cats.
+    Cats.all.select.do 
   
   
  
