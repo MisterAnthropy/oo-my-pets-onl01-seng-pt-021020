@@ -11,7 +11,7 @@ class Owner
     @species = "human"
     #binding.pry
     @@all << self
-    @pets = {:dogs => [], :cats => []}
+    @pets = {:dogs => [], :cats => [nil]}
   end
  
   def say_species
@@ -31,7 +31,7 @@ class Owner
   end
   
   def cats
-    @pets[:cats] << @owner
+    Cat 
   end
   
    
