@@ -13,6 +13,8 @@ class Dog
   def self.all
     @@all
   end
-  
+  def cats 
+    owner.cats << self
+  end
  
 end
