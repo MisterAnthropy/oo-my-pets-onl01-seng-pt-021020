@@ -11,8 +11,6 @@ class Owner
     @species = "human"
     #binding.pry
     @@all << self
-    owner.cats << self
-    owner.dogs << self
     
   end
  
